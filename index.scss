@@ -89,7 +89,7 @@ body {
       box-shadow: $shadowG;
       width: 500px;
       margin: auto;
-      min-height: 800px;
+      // min-height: 800px;
       .badge {
         position: absolute;
         top: -10px;
@@ -97,7 +97,7 @@ body {
         background-color: $bgColorH;
         padding: 5px 10px;
         border-radius: $raduis;
-        box-shadow: $shadowY;
+        // box-shadow: $shadowY;
         p {
           color: $colorH;
           font-weight: bold;
@@ -122,6 +122,18 @@ body {
         margin-top: $marginTop * 2;
         padding: 10px;
         color: $bgColorH;
+        @include flexCenter;
+        flex-direction: column;
+        .time {
+
+        }
+        .btn {
+          margin-top: $marginTop;
+          margin-bottom: $marginTop*2;
+          button {
+            @include buttonStyle;
+          }
+        }
       }
     }
   }

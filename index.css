@@ -48,7 +48,6 @@ body .container .project-container {
   box-shadow: 0px 4px 16px #2e302c;
   width: 500px;
   margin: auto;
-  min-height: 800px;
 }
 body .container .project-container .badge {
   position: absolute;
@@ -57,7 +56,6 @@ body .container .project-container .badge {
   background-color: #f0dc4e;
   padding: 5px 10px;
   border-radius: 4px;
-  box-shadow: 0px 4px 16px #f0dc4e;
 }
 body .container .project-container .badge p {
   color: #2e302c;
@@ -83,6 +81,27 @@ body .container .project-container .content {
   margin-top: 40px;
   padding: 10px;
   color: #f0dc4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body .container .project-container .content .btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+body .container .project-container .content .btn button {
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  background-color: #f0dc4e;
+  color: #2e302c;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
 }
 body .footer {
   border-top: 1px solid #2e302c;
